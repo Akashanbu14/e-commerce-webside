@@ -30,7 +30,7 @@ body{
  .navbar-menu-toggle{
     display: none;
  }
- /*side navbar*/
+
  .side-navbar{
     background-color: #1d232c;
     width: 50%;
@@ -98,6 +98,8 @@ body{
   display: flex;
   justify-content:space-between;
   flex-wrap: wrap;
+  padding: 10px;
+  row-gap: 10px;
 
  }
  .new-arrival-container{
@@ -246,3 +248,16 @@ input {
       flex-direction: column;
     }
  }
+ @media screen and (max-width: 500px) {
+     
+   .new-arrival{
+    display: flex;
+    justify-content: center;
+    row-gap: 10px;
+   }
+   .news input{
+    width: auto;
+   }
+ }
+  
+ 
